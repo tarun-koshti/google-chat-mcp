@@ -1,0 +1,15 @@
+/node_modules
+/dist
+documents/
+
+# Credentials: keep the OAuth client file and tokens outside the repo
+*.json.token
+token.json
+*-token.json
+*-client.json
+client_secret*.json
+*credentials*.json
+
+# Weak setup screenshots kept locally only (README uses 07b and 08b)
+docs/setup/07-project-created-notification.png
+docs/setup/08-project-selected.png
